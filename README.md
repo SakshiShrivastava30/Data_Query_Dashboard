@@ -6,7 +6,7 @@ A responsive and efficient dashboard built with **React**, **TailwindCSS**, and 
 
 ## 🚀 Features
 
-- 🔍 **Query Input** – Enter SQL-like or API queries
+- 🔍 **Query Input** – Enter SQL-like or API querie
 - 📜 **Query History** – Tracks recent queries
 - 📊 **Query Results** – Display returned data in a user-friendly format
 - 🎨 **Responsive UI** – Styled using TailwindCSS
