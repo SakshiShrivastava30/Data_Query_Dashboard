@@ -1,12 +1,28 @@
-# React + Vite
+# 📊 Data Query Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and efficient dashboard built with **React**, **TailwindCSS**, and **Redux Toolkit**. It allows users to input custom queries, view results, and track query history in a clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Query Input** – Enter SQL-like or API queries
+- 📜 **Query History** – Tracks recent queries
+- 📊 **Query Results** – Display returned data in a user-friendly format
+- 🎨 **Responsive UI** – Styled using TailwindCSS
+- ⚙️ **State Management** – Global state handled by Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Component-based frontend
+- **TailwindCSS** – Utility-first styling
+- **Redux Toolkit** – Scalable global state management
+- **Vite** – Lightning-fast frontend tooling
+
+---
+
+## 📁 Folder Structure
+
+DATA-QUERY-DASHBOARD/ ├── public/ # Static assets ├── src/ │ ├── assets/ # Images, icons, etc. │ ├── components/ # Reusable UI components │ │ ├── QueryHistory.jsx │ │ ├── QueryInput.jsx │ │ ├── QueryResult.jsx │ │ └── Sidebar.jsx │ ├── redux/ # Redux logic (store and slices) │ │ ├── querySlice.js │ │ └── store.js │ ├── App.jsx # Main app component │ ├── App.css │ ├── index.css │ └── main.jsx # React root + provider setup ├── .gitignore ├── index.html ├── package.json ├── vite.config.js ├── eslint.config.js └── README.md
